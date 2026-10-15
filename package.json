@@ -1,0 +1,17 @@
+{
+  "name": "chat-rag",
+  "version": "1.0.0",
+  "description": "Chat RAG sencillo con Express, OpenAI y LanceDB",
+  "main": "app.js",
+  "scripts": {
+    "index": "node index.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@lancedb/lancedb": "^0.15.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "openai": "^4.104.0",
+    "pdf-parse": "1.1.1"
+  }
+}
